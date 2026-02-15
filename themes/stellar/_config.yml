@@ -37,12 +37,12 @@ menubar:
     theme: '#FA6400'
     icon: https://api.iconify.design/solar:calendar-bold-duotone.svg
     title: 아카이브
-    url: /blog/archives/
+    url: /archives/
   - id: tags
     theme: '#F44336'
     icon: https://api.iconify.design/solar:hashtag-square-bold.svg
     title: 태그
-    url: /blog/tags/
+    url: /tags/
 site_tree:
   home:
     leftbar: welcome, recent
