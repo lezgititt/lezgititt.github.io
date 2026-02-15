@@ -17,17 +17,32 @@ open_graph:
 structured_data:
   links: []
 logo:
-  avatar: '[{config.avatar}](/about/)'
-  title: '[{config.title}](/)'
+  avatar: '[https://api.iconify.design/solar:planet-bold-duotone.svg](/)'
+  title: '[🥊 {config.title}](/)'
   subtitle: '{config.subtitle}'
 menubar:
   columns: 4
   items:
+  - id: post
+    theme: '#1BCDFC'
+    icon: solar:documents-bold-duotone
+    title: 블로그
+    url: /
   - id: notebooks
     theme: '#3DC550'
     icon: solar:notebook-bookmark-bold-duotone
     title: 노트
     url: /notebooks/
+  - id: archive
+    theme: '#FA6400'
+    icon: solar:calendar-bold-duotone
+    title: 아카이브
+    url: /blog/archives/
+  - id: tags
+    theme: '#F44336'
+    icon: solar:hashtag-square-bold
+    title: 태그
+    url: /blog/tags/
 site_tree:
   home:
     leftbar: welcome, recent
@@ -176,9 +191,7 @@ comments:
 footer:
   social: null
   sitemap: null
-  content: '© {config.author} · Powered by Hexo + Stellar
-
-    '
+  content: © {author.name} · Powered by {theme.name} {theme.version}
 tag_plugins:
   note:
     default_color: ''
