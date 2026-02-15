@@ -17,8 +17,8 @@ open_graph:
 structured_data:
   links: []
 logo:
-  avatar: '[https://api.iconify.design/solar:planet-bold-duotone.svg](/)'
-  title: '[🥊 {config.title}](/)'
+  avatar: '[https://api.iconify.design/mdi:boxing-glove.svg](/)'
+  title: '[{config.title}](/)'
   subtitle: '{config.subtitle}'
 menubar:
   columns: 4
