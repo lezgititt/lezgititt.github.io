@@ -25,22 +25,22 @@ menubar:
   items:
   - id: post
     theme: '#1BCDFC'
-    icon: solar:documents-bold-duotone
+    icon: https://api.iconify.design/solar:documents-bold-duotone.svg?color=%231BCDFC
     title: 블로그
     url: /
   - id: notebooks
     theme: '#3DC550'
-    icon: solar:notebook-bookmark-bold-duotone
+    icon: https://api.iconify.design/solar:notebook-bookmark-bold-duotone.svg?color=%233DC550
     title: 노트
     url: /notebooks/
   - id: archive
     theme: '#FA6400'
-    icon: solar:calendar-bold
+    icon: https://api.iconify.design/solar:calendar-bold-duotone.svg?color=%23FA6400
     title: 아카이브
     url: /archives/
   - id: tags
     theme: '#F44336'
-    icon: solar:hashtag-square-bold
+    icon: https://api.iconify.design/solar:hashtag-square-bold.svg?color=%23F44336
     title: 태그
     url: /tags/
 site_tree:
