@@ -1,0 +1,9 @@
+name: General
+title: General
+icon: solar:notebook-bookmark-bold-duotone
+description: General notes
+base_dir: /notebooks/general
+sort: 1
+per_page: 20
+order_by: -updated
+menu_id: notebooks

@@ -10,14 +10,14 @@ function generate_title() {
     }
   } else {
     if (page.title) {
-      return page.title + ' - ' + config.title;
+      return page.title + ' - ' + (config.title_alt || config.title);
     } else if (page.category) {
       return __('btn.category') + __('symbol.colon') + page.category + ' - ' + config.title;
     } else if (page.tag) {
       return __('btn.tag') + __('symbol.colon') + page.tag + ' - ' + config.title;
     }
   }
-  return config.title;
+  return (config.title_alt || config.title);
 }
 function generate_description() {
   if (theme.open_graph && theme.open_graph.enable) {

@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: The Machine Blog
+title: Seungjun Bae
 subtitle: ''
 description: ''
 keywords:
-author: Bae
+author: Seungjun Bae
+title_alt: "Bae's Blog"
 language: ko
 timezone: Asia/Seoul
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://YOUR_GITHUB_ID.github.io
+url: https://lezgititt.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
